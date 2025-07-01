@@ -216,7 +216,7 @@ export class SIPCore {
     }
 
     async init() {
-        await this.createHassioSession();
+        //await this.createHassioSession();
         await this.setupAudio();
 
         if (this.config.sip_video) {
